@@ -1,14 +1,19 @@
 import { RedirectButton } from "../components/RedirectButton";
+import { TagsLine } from "../components/TagsLine";
+import { LatestProjects } from "../components/LatestProjects";
+
+import { Message } from "../components/icons/Message";
+
 import Image from "next/image";
 
 export default function Home() {
   return (
     <main>
-      <div className="w-[85vw] h-[90vh] bg-[var(--violet-1)] rounded-br-[15vw] flex">
+      <section className="w-[85vw] h-[90vh] bg-[var(--violet-1)] rounded-br-[15vw] flex">
         <div className="h-full w-[55%] flex flex-col justify-center items-center">
-          <div className="h-1/4"></div>
+          <div className="h-[20vh]"></div>
           <Image
-            className="h-[80%] w-[80%] object-contain"
+            className="h-[70vh] w-[80%] object-contain"
             src="/images/png/mii/Bonjour.png"
             alt="Tédy CROZAT"
             width={1205}
@@ -27,22 +32,25 @@ export default function Home() {
           <div className="flex items-center justify-start gap-[2vw] my-[3vh]">
             <RedirectButton
               description="GitHub"
-              image="/images/svg/github.svg"
+              image="github"
               url="https://github.com"
+              color = "var(--violet-3)"
             />
             <RedirectButton
-              description="LinkedIn"
-              image="/images/icons/linkedin.png"
-              url="https://www.linkedin.com"
+              description="Appel"
+              image="tel"
+              url="tel:+330768466335"
+              color="var(--violet-3)"
             />
             <RedirectButton
               description="Instagram"
-              image="/components/icons/twitter.png"
-              url="https://twitter.com"
+              image="message"
+              url="mailto:crozat.tedy@gmail.com"
+              color="var(--violet-3)"
             />
           </div>
         </div>
-      </div>
+      </section>
       <div className="h-[10vh] flex items-center justify-center">
         <Image 
           src="/images/svg/arrow-down.svg"
@@ -51,6 +59,57 @@ export default function Home() {
           height={50}
         />
       </div>
+      <section>
+        <p>QUI SUIS-JE ?</p>
+        <article>
+
+        </article>
+        <p>Centres d&apos;intérêts</p>
+        <div className="flex flex-row gap-[0.5vw] flex-wrap">
+          <TagsLine
+            tag="Apprendre"
+            image="/images/svg/livres.svg"
+          />
+          <TagsLine
+            tag="Jeux Vidéo"
+            image="/images/svg/manette.svg"
+          />
+          <TagsLine
+            tag="Musique"
+            image="/images/svg/musique.svg"
+          />
+          <TagsLine
+            tag="Café"
+            image="/images/svg/tasse.svg"
+          />
+          <TagsLine
+            tag="Handball"
+            image="/images/svg/handball.svg"
+          />
+          <TagsLine
+            tag="Modélisation 3D"
+            image="/images/svg/cube.svg"
+          />
+        </div>
+      </section>
+      <section>
+        <p>PROJETS RECENTS</p>
+        <LatestProjects/>
+      </section>
+      <section>
+        <p>MES DIPLÔMES | CERTIFICATIONS</p>
+        <div>
+          <article>
+
+          </article>
+          <article>
+
+          </article>
+          <article>
+            
+          </article>
+        </div>
+      </section>
     </main>
   );
-}
+};
