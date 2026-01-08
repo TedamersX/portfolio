@@ -62,7 +62,16 @@ export default function Home() {
       <section>
         <p>QUI SUIS-JE ?</p>
         <article>
-
+          <p>
+            Je m'appelle Tédy CROZAT, je suis en troisième et dernière année de Bachelor Universitaire Technologique Métiers du Multimédia et de l'Internet (BUT MMI). 
+            Dans les grandes lignes, j'ai appris à programmer des sites web ainsi que créer l'identité graphique d'une entreprise, avec cela s'accompagne les bases du marketing et une initiation à la création de jeux vidéo. 
+            Au delà de mon parcours scolaire, je suis une personne qui a toujours aimé sociabiliser, communiquer et apprendre comment l'humain évolue de l'enfance à la vie d'adulte. 
+            Ce trait de caractère m'a pousser à passer un Brevet d'Aptitude aux Fonctions d'Animateur (BAFA) et par la suite, m'investir dans le domaine de l'animation à travers divers organismes (Moov'Action, Anim'Elbeuf, l'Interco Normandie). 
+            Et afin de continuer dans ce domaine, j'ai commencé à m'investir en tant que trésorier d'une association dans le domaine de l'animation et de la prévention (PREV'N'EURE) et pour accompagné ceci, 
+            j'ai pour projet de passer un Brevet Professionnel de la Jeunesse, de l'Éducation Populaire et du Sport (BPJEPS). 
+            A travers l'animation, j'ai appris 3 choses : Écouter, Innover et Aider. Ces compétences me serve à présent dans mon parcours scolaire notamment dans les projets de groupe, mais aussi dans la vie quotidienne.
+            Aujourd'hui, je commence à me lancer dans la vie professionnel, en lançant mon auto-entreprise et proposer de créer des sites web pour les organismes dans le besoin. Ce choix de me mettre en auto-entreprise est dicté par mon voeux de pouvoir continuer à faire de l'animation au sein de l'association dans laquelle je m'investi. 
+          </p>
         </article>
         <p>Centres d&apos;intérêts</p>
         <div className="flex flex-row gap-[0.5vw] flex-wrap">
@@ -88,6 +97,10 @@ export default function Home() {
           />
           <TagsLine
             tag="Modélisation 3D"
+            image="/images/svg/cube.svg"
+          />
+          <TagsLine
+            tag="Animation"
             image="/images/svg/cube.svg"
           />
         </div>
