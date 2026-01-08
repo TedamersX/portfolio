@@ -13,7 +13,7 @@ Ce portfolio est réalisé dans le cadre d'un cours en troisième année de BUT 
 Il sert à mettre en avant mes compétences en therme de programmation mais aussi en therme de créativité.
 
 Le thème du portfolio est le mii.
-En effet, grâce Mii Creator, un site web développé par un groupe de personnes, j'ai pu créer mon mii et en faire des rendus utilisables directement sur mon site web.
+En effet, grâce à Mii Creator, un site web développé par un groupe de personnes, j'ai pu créer mon mii et en faire des rendus utilisables directement sur mon site web.
 
 Crédits :
   - L'équipe de Mii Creator         -> https://mii.nxw.pw/
