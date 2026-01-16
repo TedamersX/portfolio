@@ -7,7 +7,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main>
-      <section className="w-[86vw] ml-[7vw] md:w-[85vw] md:ml-[0vw] h-[90vh] bg-[var(--violet-1)] rounded-b-[15vw] flex">
+      <section className="w-[86vw] ml-[7vw] md:w-[85vw] md:ml-[0vw] h-[90vh] bg-[var(--violet-1)] md:rounded-bl-none rounded-b-[15vw] flex">
         <div className="h-full w-[55%] flex flex-col justify-center items-center">
           <div className="h-[20vh] w-full flex justify-center items-end">
             <p className="mx-[1vw] text-2xl font-bold">LV.0</p>

@@ -82,7 +82,7 @@ export const MiiInteractor = () => {
             <div className="w-full flex flex-row justify-around">
                 <div className="w-[80%] relative top-[-5vh] h-full">
                     <article className="w-full h-full py-[2vh] flex items-center justify-center bg-[var(--violet-3)] rounded-3xl">
-                        <p id="mii-message" className="text-white font-bold text-center px-[1vw]">Interagissez avec moi wwwwwwwwwwww!</p>
+                        <p id="mii-message" className="text-white font-bold text-center px-[1vw]">Va te faire enculer Adrien</p>
                     </article>
                     <svg
                         viewBox="0 0 62 23"
