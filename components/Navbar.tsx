@@ -10,7 +10,7 @@ import CastButton from './CastButton';
 
 const navLinks = [
     { name: 'Projets', href: '/projets', icon: Folder },
-    { name: 'A Propos', href: '/about', icon: User },
+    { name: 'À Propos', href: '/about', icon: User },
     { name: 'Stack', href: '/stack', icon: Cpu },
 ];
 
@@ -25,7 +25,7 @@ export default function Navbar() {
 
                     <Link href="/" className='flex items-center gap-2 font-bold text-xl'>
                         <Terminal className='text-app-primary' />
-                        <span>Mon Portfolio</span>
+                        <span>Tédy.C</span>
                     </Link>
 
                     <div className='hidden md:flex items-center gap-8'>
@@ -50,12 +50,12 @@ export default function Navbar() {
                     <div className="hidden md:flex items-center gap-4">
                         <CastButton />
                         <ThemeToggle />
-                        <Link href="https://github.com" target="_blank">
+                        <Link href="https://github.com/TedamersX" target="_blank">
                             <Github size={20} className="hover:text-app-primary transition-colors" />
                         </Link>
                         <Link href="/contact" className='flex items-center gap-2 bg-app-primary text-app-text px-4 py-2 rounded-full text-sm font-medium hover:bg-app-primary/80 transition-transform active:scale-95'>
                             <Send size={16} />
-                            Contact
+                            Me Contacter
                         </Link>
                     </div>
 

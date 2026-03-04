@@ -1,6 +1,6 @@
 'use client';
 import Link from 'next/link';
-import { Github, Linkedin, Mail, Terminal } from 'lucide-react';
+import { Github, Mail, Terminal } from 'lucide-react';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -33,13 +33,10 @@ export default function Footer() {
           <div>
             <h4 className="font-bold mb-4 text-sm uppercase tracking-widest">Suivez-moi</h4>
             <div className="flex gap-4">
-              <Link href="https://github.com" className="p-2 rounded-full bg-app-muted/5 hover:bg-app-primary/10 hover:text-app-primary transition-all">
+              <Link href="https://github.com/TedamersX" className="p-2 rounded-full bg-app-muted/5 hover:bg-app-primary/10 hover:text-app-primary transition-all">
                 <Github size={20} />
               </Link>
-              <Link href="https://linkedin.com" className="p-2 rounded-full bg-app-muted/5 hover:bg-app-primary/10 hover:text-app-primary transition-all">
-                <Linkedin size={20} />
-              </Link>
-              <Link href="mailto:votre@mail.com" className="p-2 rounded-full bg-app-muted/5 hover:bg-app-primary/10 hover:text-app-primary transition-all">
+              <Link href="mailto:crozat.tedy@gmail.com" className="p-2 rounded-full bg-app-muted/5 hover:bg-app-primary/10 hover:text-app-primary transition-all">
                 <Mail size={20} />
               </Link>
             </div>
@@ -48,7 +45,7 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-app-muted/5 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-app-muted">
           <p>© {currentYear} MonPortfolio. Tous droits réservés.</p>
-          <p>Bâti avec <span className="text-app-primary">Next.js</span> & <span className="text-app-primary">Tailwind CSS</span></p>
+          <p>Réalisé avec <span className="text-app-primary">Next.js</span>, <span className="text-app-primary">TypeScript</span> & <span className="text-app-primary">Tailwind CSS</span></p>
         </div>
       </div>
     </footer>

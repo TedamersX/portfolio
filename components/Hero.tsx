@@ -51,7 +51,7 @@ export default function Hero() {
                     transition={{ duration: 0.5, delay: 0.4 }}
                     className="flex flex-wrap justify-center gap-4"
                 >
-                    <Link href="/projects" className="flex items-center gap-2 bg-app-primary text-white px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform active:scale-95 shadow-lg shadow-app-primary/20">
+                    <Link href="/projets" className="flex items-center gap-2 bg-app-primary text-white px-8 py-4 rounded-full font-bold hover:scale-105 transition-transform active:scale-95 shadow-lg shadow-app-primary/20">
                         Voir mes projets
                         <ArrowRight size={20} />
                     </Link>
