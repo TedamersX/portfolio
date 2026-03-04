@@ -36,7 +36,7 @@ export default function NotFound() {
         transition={{ delay: 0.2 }}
       >
         <h2 className="text-2xl md:text-3xl font-bold mb-4">
-          Oups ! Cette page s'est volatilisée.
+          Oups ! Cette page s&apos;est volatilisée.
         </h2>
         <p className="text-app-muted max-w-md mx-auto mb-10">
           Il semble que le lien que vous avez suivi soit cassé ou que la page ait été déplacée vers une autre dimension.
@@ -54,7 +54,7 @@ export default function NotFound() {
           className="flex items-center gap-2 bg-app-primary text-white px-6 py-3 rounded-full font-bold hover:scale-105 transition-transform active:scale-95"
         >
           <Home size={20} />
-          Retour à l'accueil
+          Retour à l&apos;accueil
         </Link>
         
         <button 

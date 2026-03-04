@@ -2,8 +2,8 @@
 
 //if (true) throw new Error("Test d'erreur 500");
 
-import { delay, motion } from 'framer-motion';
-import { ArrowRight, FileText, Github } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { ArrowRight, FileText } from 'lucide-react';
 import Link from 'next/link';
 
 export default function Hero() {

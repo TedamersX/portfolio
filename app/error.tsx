@@ -31,7 +31,7 @@ export default function Error({
       </h1>
       
       <p className="text-app-muted max-w-md mx-auto mb-10 text-lg">
-        Une erreur inattendue est survenue. Ne vous inquiétez pas, ce n'est probablement pas votre faute !
+        Une erreur inattendue est survenue. Ne vous inquiétez pas, ce n&apos;est probablement pas votre faute !
       </p>
 
       <div className="flex flex-wrap justify-center gap-4">
@@ -48,13 +48,13 @@ export default function Error({
           className="flex items-center gap-2 bg-app-muted/10 border border-app-muted/20 px-8 py-4 rounded-full font-bold hover:bg-app-muted/20 transition-colors"
         >
           <Home size={20} />
-          Retour à l'accueil
+          Retour à l&apos;accueil
         </Link>
       </div>
 
       {error.digest && (
         <p className="mt-12 text-xs text-app-muted opacity-50">
-          ID de l'erreur : {error.digest}
+          ID de l&apos;erreur : {error.digest}
         </p>
       )}
     </div>

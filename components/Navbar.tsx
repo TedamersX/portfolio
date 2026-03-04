@@ -4,8 +4,7 @@ import React, {useState} from 'react';
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
-import { useTheme } from 'next-themes';
-import { Terminal, Folder, User, Cpu, Send, Github, Moon, Sun, Menu, X } from 'lucide-react';
+import { Terminal, Folder, User, Cpu, Send, Github, Menu, X } from 'lucide-react';
 import ThemeToggle from './ThemeToggle';
 import CastButton from './CastButton';
 
@@ -17,7 +16,6 @@ const navLinks = [
 
 export default function Navbar() {
     const pathname = usePathname();
-    const { theme, setTheme } = useTheme();
     const [isMenuOpen, setIsMenuOpen] = useState(false);
 
     return (
